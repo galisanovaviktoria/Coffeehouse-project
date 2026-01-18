@@ -1,0 +1,1 @@
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:38 GraphQL клиент инициализирован для http://localhost:8080/graphql

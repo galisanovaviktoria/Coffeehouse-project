@@ -1,0 +1,8 @@
+query GetUsersByRole ($role: Role!) {
+  users(role: $role) {
+    id
+    username
+    email
+    role
+  }
+}

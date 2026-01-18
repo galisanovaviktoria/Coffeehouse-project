@@ -1,0 +1,329 @@
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:64 --> GraphQL Query: GQL: Создание пользователя 'gql_customer_edwinhurst' с ролью 'CUSTOMER'
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:77     Variables: {
+  "username": "gql_customer_edwinhurst",
+  "email": "lmunoz@example.org",
+  "password": "password123",
+  "role": "CUSTOMER"
+}
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:90 <-- GraphQL Response: {
+  "createUser": {
+    "id": "115",
+    "username": "gql_customer_edwinhurst",
+    "email": "lmunoz@example.org",
+    "role": "CUSTOMER"
+  }
+}
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:64 --> GraphQL Query: GQL: Получение пользователей с ролью 'CUSTOMER'
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:77     Variables: {
+  "role": "CUSTOMER"
+}
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:90 <-- GraphQL Response: {
+  "users": [
+    {
+      "id": "2",
+      "username": "customer",
+      "email": "customer@coffee.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "4",
+      "username": "testcurl",
+      "email": "testcurl@test.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "5",
+      "username": "user_7b544d",
+      "email": "user_7b544d@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "6",
+      "username": "user_58bfde",
+      "email": "user_58bfde@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "7",
+      "username": "user_475fe2",
+      "email": "user_475fe2@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "8",
+      "username": "testuser",
+      "email": "testuser@example.ru",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "9",
+      "username": "Some222UserName",
+      "email": "Some222UserName@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "10",
+      "username": "user_600182",
+      "email": "user_600182@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "11",
+      "username": "user_d809cf",
+      "email": "user_d809cf@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "12",
+      "username": "User3556Name",
+      "email": "User3556Name@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "13",
+      "username": "SomeUserName",
+      "email": "SomeUserName@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "14",
+      "username": "ovega4437",
+      "email": "rmoran@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "15",
+      "username": "dianenguyen1343",
+      "email": "cassandra58@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "16",
+      "username": "elynch3323",
+      "email": "npatrick@example.org",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "17",
+      "username": "kwells6474",
+      "email": "hunterjames@example.org",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "18",
+      "username": "katherinegray1056",
+      "email": "donaldgonzalez@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "19",
+      "username": "shannon919516",
+      "email": "contreraskristina@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "20",
+      "username": "caitlyn785932",
+      "email": "beckerjohn@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "21",
+      "username": "brian343852",
+      "email": "deckerpatricia@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "22",
+      "username": "marcus936954",
+      "email": "usanchez@example.org",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "23",
+      "username": "jason953292",
+      "email": "toddsimmons@example.org",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "24",
+      "username": "ianderson8160",
+      "email": "donnapetty@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "25",
+      "username": "paulwebb2217",
+      "email": "chungcatherine@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "26",
+      "username": "testuser_db_check",
+      "email": "testdb@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "29",
+      "username": "customer_sarahernandez_52732",
+      "email": "crossdiana@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "32",
+      "username": "customer_lromero_300840",
+      "email": "melissahancock@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "36",
+      "username": "customer_sandovalalan_309395",
+      "email": "smcknight@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "38",
+      "username": "customer_isabellajones_473723",
+      "email": "glenn95@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "40",
+      "username": "customer_bryan26_966841",
+      "email": "orrkimberly@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "42",
+      "username": "customer_garrettrodriguez_422297",
+      "email": "catherinewhite@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "44",
+      "username": "customer_moranlisa_978593",
+      "email": "adavis@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "46",
+      "username": "customer_gregory75_691370",
+      "email": "dustin42@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "48",
+      "username": "customer_mitchellmichael_542119",
+      "email": "samuelhughes@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "50",
+      "username": "customer_frankthompson_497163",
+      "email": "bradleykaren@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "52",
+      "username": "customer_hgarcia_163307",
+      "email": "jenkinswilliam@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "54",
+      "username": "customer_jessicawilliams_133074",
+      "email": "youngvanessa@example.org",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "56",
+      "username": "customer_jose21_217686",
+      "email": "kelly14@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "87",
+      "username": "customer_lnavarro_576599",
+      "email": "ulopez@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "89",
+      "username": "User Test",
+      "email": "testuser2@example.ru",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "91",
+      "username": "customer_sarah32_804869",
+      "email": "catherine86@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "95",
+      "username": "gql_customer_emily99",
+      "email": "tammy21@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "98",
+      "username": "gql_customer_anelson",
+      "email": "kristy45@example.org",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "99",
+      "username": "gql_customer_brandon07",
+      "email": "katherine50@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "102",
+      "username": "gql_customer_amy10",
+      "email": "chelsea80@example.org",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "103",
+      "username": "gql_customer_jenkinsgary",
+      "email": "marisagoodwin@example.net",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "106",
+      "username": "gql_customer_stevenbridges",
+      "email": "ashlee11@example.com",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "107",
+      "username": "gql_customer_michellemorgan",
+      "email": "wcochran@example.org",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "108",
+      "username": "gql_customer_harveykaren",
+      "email": "william06@example.org",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "111",
+      "username": "gql_customer_devin89",
+      "email": "ybarnes@example.org",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "112",
+      "username": "gql_customer_zrobbins",
+      "email": "johnsavage@example.org",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "115",
+      "username": "gql_customer_edwinhurst",
+      "email": "lmunoz@example.org",
+      "role": "CUSTOMER"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "createUser": {
+    "id": "105",
+    "username": "gql_admin_hwilkins",
+    "email": "paullee@example.com",
+    "role": "ADMIN"
+  }
+}

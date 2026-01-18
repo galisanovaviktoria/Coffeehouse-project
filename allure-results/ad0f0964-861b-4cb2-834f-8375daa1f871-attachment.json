@@ -1,0 +1,8 @@
+{
+  "createUser": {
+    "id": "110",
+    "username": "gql_admin_valvarado",
+    "email": "leslieguerrero@example.net",
+    "role": "ADMIN"
+  }
+}

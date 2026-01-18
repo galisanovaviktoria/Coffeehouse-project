@@ -1,0 +1,1 @@
+{'query': 'mutation CreateUser($username: String!, $email: String!, $password: String!, $role: String!) {\n  createUser(username: $username, email: $email, password: $password, role: $role) {\n    id\n    username\n    email\n    role\n  }\n}'}

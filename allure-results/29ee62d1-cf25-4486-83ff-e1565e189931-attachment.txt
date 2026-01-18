@@ -1,0 +1,16 @@
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:38 GraphQL клиент инициализирован для http://localhost:8080/graphql
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:64 --> GraphQL Query: GQL: Создание пользователя 'gql_customer_jenkinsgary' с ролью 'CUSTOMER'
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:77     Variables: {
+  "username": "gql_customer_jenkinsgary",
+  "email": "marisagoodwin@example.net",
+  "password": "+TJJ_o9R9@@t",
+  "role": "CUSTOMER"
+}
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:90 <-- GraphQL Response: {
+  "createUser": {
+    "id": "103",
+    "username": "gql_customer_jenkinsgary",
+    "email": "marisagoodwin@example.net",
+    "role": "CUSTOMER"
+  }
+}

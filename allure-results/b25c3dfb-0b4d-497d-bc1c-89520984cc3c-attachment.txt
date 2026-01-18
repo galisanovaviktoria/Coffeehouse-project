@@ -1,0 +1,8 @@
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:64 --> GraphQL Query: GQL: Создание пользователя 'gql_seller_bishopsusan' с ролью 'SELLER'
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:77     Variables: {
+  "username": "gql_seller_bishopsusan",
+  "email": "whitney60@example.com",
+  "password": "tiKbS1L%L#LP",
+  "role": "SELLER"
+}
+[1m[31mERROR   [0m tests.graphql.core.graphql_client:graphql_client.py:122 ❌ Ошибка выполнения GraphQL запроса: HTTPConnectionPool(host='127.0.0.1', port=12334): Max retries exceeded with url: http://localhost:8080/graphql (Caused by ResponseError('too many 502 error responses'))

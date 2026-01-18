@@ -1,0 +1,68 @@
+"""
+Indicates an Input Object is a OneOf Input Object.
+"""
+directive @oneOf on INPUT_OBJECT
+
+type CoffeeOrder {
+  id: ID!
+  user: User!
+  ingredients: [Ingredient!]!
+  createdAt: String!
+  status: String!
+}
+
+enum CoffeeOrderStatus {
+  CREATED
+  INPROGRESS
+  DONE
+}
+
+type Ingredient {
+  id: ID!
+  name: String!
+  quantity: Int!
+}
+
+type Message {
+  id: ID!
+  sender: User!
+  receiver: User!
+  content: String!
+  sentAt: String!
+}
+
+type Mutation {
+  createUser(
+    username: String!
+    email: String!
+    password: String!
+    role: String!
+  ): User!
+  createIngredient(name: String!, quantity: Int!): Ingredient!
+  createOrder(userId: ID!, ingredientIds: [ID!]!): CoffeeOrder!
+  createMessage(senderId: ID!, receiverId: ID!, content: String!): Message!
+}
+
+type Query {
+  users(role: Role): [User!]!
+  user(id: ID!): User
+  ingredients: [Ingredient!]!
+  ingredient(id: ID!): Ingredient
+  orders(status: CoffeeOrderStatus): [CoffeeOrder!]!
+  order(id: ID!): CoffeeOrder
+  ordersByUser(userId: ID!): [CoffeeOrder!]!
+  messages(senderId: ID, receiverId: ID): [Message!]!
+}
+
+enum Role {
+  CUSTOMER
+  SELLER
+  ADMIN
+}
+
+type User {
+  id: ID!
+  username: String!
+  email: String!
+  role: String!
+}

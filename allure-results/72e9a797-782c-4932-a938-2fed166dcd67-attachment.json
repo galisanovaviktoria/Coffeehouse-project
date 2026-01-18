@@ -1,0 +1,9 @@
+{
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXVsd2ViYjIyMTciLCJpYXQiOjE3NjgxNDM3ODUsImV4cCI6MTc2ODIzMDE4NX0.S7Ynbp3WP9h5cHfr4d1HgU2UK2RM-4SfbfN3Pa5xXVg",
+  "user": {
+    "id": 25,
+    "username": "paulwebb2217",
+    "email": "chungcatherine@example.net",
+    "role": "CUSTOMER"
+  }
+}

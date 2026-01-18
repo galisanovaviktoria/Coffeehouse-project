@@ -1,0 +1,15 @@
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:64 --> GraphQL Query: GQL: Создание пользователя 'gql_seller_brooketate' с ролью 'SELLER'
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:77     Variables: {
+  "username": "gql_seller_brooketate",
+  "email": "johnpeck@example.org",
+  "password": "673R@Alf^Lv#",
+  "role": "SELLER"
+}
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:90 <-- GraphQL Response: {
+  "createUser": {
+    "id": "104",
+    "username": "gql_seller_brooketate",
+    "email": "johnpeck@example.org",
+    "role": "SELLER"
+  }
+}

@@ -1,0 +1,15 @@
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:64 --> GraphQL Query: GQL: Создание пользователя 'gql_admin_valvarado' с ролью 'ADMIN'
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:77     Variables: {
+  "username": "gql_admin_valvarado",
+  "email": "leslieguerrero@example.net",
+  "password": "x%snIkbQXvK1",
+  "role": "ADMIN"
+}
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:90 <-- GraphQL Response: {
+  "createUser": {
+    "id": "110",
+    "username": "gql_admin_valvarado",
+    "email": "leslieguerrero@example.net",
+    "role": "ADMIN"
+  }
+}

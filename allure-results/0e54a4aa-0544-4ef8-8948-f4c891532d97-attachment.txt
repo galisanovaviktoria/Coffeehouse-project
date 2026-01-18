@@ -1,0 +1,15 @@
+[32mINFO    [0m simple_tests.simple_http_client:simple_http_client.py:21 POST http://localhost:8080/api/auth/register
+[32mINFO    [0m simple_tests.simple_http_client:simple_http_client.py:23 Request body: {
+  "username": "paulwebb2217",
+  "email": "chungcatherine@example.net",
+  "password": "!b)V^Hhyg5G^"
+}
+[32mINFO    [0m simple_tests.simple_http_client:simple_http_client.py:27 Response status: 200
+[32mINFO    [0m simple_tests.simple_http_client:simple_http_client.py:29 Response body: {"id":25,"username":"paulwebb2217","email":"chungcatherine@example.net","role":"CUSTOMER"}
+[32mINFO    [0m simple_tests.simple_http_client:simple_http_client.py:21 POST http://localhost:8080/api/auth/login
+[32mINFO    [0m simple_tests.simple_http_client:simple_http_client.py:23 Request body: {
+  "username": "paulwebb2217",
+  "password": "!b)V^Hhyg5G^"
+}
+[32mINFO    [0m simple_tests.simple_http_client:simple_http_client.py:27 Response status: 200
+[32mINFO    [0m simple_tests.simple_http_client:simple_http_client.py:29 Response body: {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXVsd2ViYjIyMTciLCJpYXQiOjE3NjgxNDM3ODUsImV4cCI6MTc2ODIzMDE4NX0.S7Ynbp3WP9h5cHfr4d1HgU2UK2RM-4SfbfN3Pa5xXVg","user":{"id":25,"username":"paulwebb2217","email":"chungcatherine@example.net","role":"CUSTOMER"}}

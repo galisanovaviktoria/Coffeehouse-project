@@ -1,0 +1,1 @@
+{'query': 'query GetUsersByRole($role: Role!) {\n  users(role: $role) {\n    id\n    username\n    email\n    role\n  }\n}'}

@@ -1,0 +1,66 @@
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:38 GraphQL клиент инициализирован для http://localhost:8080/graphql
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:64 --> GraphQL Query: GQL: Получение всех ингредиентов
+[32mINFO    [0m tests.graphql.core.graphql_client:graphql_client.py:90 <-- GraphQL Response: {
+  "ingredients": [
+    {
+      "id": "1",
+      "name": "Milk",
+      "quantity": 100
+    },
+    {
+      "id": "2",
+      "name": "Sugar",
+      "quantity": 200
+    },
+    {
+      "id": "3",
+      "name": "Coffee Beans",
+      "quantity": 300
+    },
+    {
+      "id": "4",
+      "name": "Тестовый ингредиент 766110",
+      "quantity": 4
+    },
+    {
+      "id": "5",
+      "name": "Тестовый ингредиент 998007",
+      "quantity": 4
+    },
+    {
+      "id": "6",
+      "name": "Тестовый ингредиент 277344",
+      "quantity": 4
+    },
+    {
+      "id": "7",
+      "name": "Тестовый ингредиент 654779",
+      "quantity": 4
+    },
+    {
+      "id": "8",
+      "name": "Тестовый ингредиент 766716",
+      "quantity": 4
+    },
+    {
+      "id": "9",
+      "name": "Тестовый ингредиент 578414",
+      "quantity": 4
+    },
+    {
+      "id": "10",
+      "name": "Тестовый ингредиент 435787",
+      "quantity": 4
+    },
+    {
+      "id": "43",
+      "name": "Ингредиент-any-24755",
+      "quantity": 1
+    },
+    {
+      "id": "44",
+      "name": "Ингредиент-level-190391",
+      "quantity": 1
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{'query': 'query GetAllIngredients {\n  ingredients {\n    id\n    name\n    quantity\n  }\n}'}
